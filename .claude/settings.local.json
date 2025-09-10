@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/Jonas/OneDrive/Programmering/BodyLog/**)",
+      "Read(//c/Users/Jonas/OneDrive/SmartLearning/MealWise/**)",
+      "Read(//c/Users/Jonas/OneDrive/Programmering/CSharp Academy/ExerciseTracker.jollejonas/**)",
+      "Read(//c/Users/Jonas/OneDrive/Programmering/CSharp Academy/jollejonas.React.TicTacToe/**)",
+      "Read(//c/Users/Jonas/OneDrive/Programmering/CSharp Academy/Movies.jollejonas/**)",
+      "Bash(npx http-server:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

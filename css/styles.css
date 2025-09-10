@@ -1,11 +1,119 @@
 .silkscreen-regular {
-    font-family: "Silkscreen", serif;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Silkscreen", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.silkscreen-bold {
+  font-family: "Silkscreen", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Custom styles for enhanced appearance */
+body {
+  font-family: "Silkscreen", serif;
+}
+
+/* Smooth transitions */
+.btn, .nav-link, .navbar-brand {
+  transition: all 0.3s ease;
+}
+
+/* Enhanced buttons */
+.btn-success:hover {
+  background-color: #198754;
+  border-color: #198754;
+  transform: translateY(-2px);
+}
+
+.btn-outline-light:hover {
+  transform: translateY(-2px);
+}
+
+/* Project cards hover effects */
+.bg-dark:hover {
+  background-color: #212529 !important;
+  transition: background-color 0.3s ease;
+}
+
+/* Section spacing */
+section {
+  scroll-margin-top: 80px; /* Account for fixed navbar if needed */
+}
+
+/* Badge styling */
+.badge {
+  font-size: 0.75em;
+  padding: 0.5em 0.75em;
+}
+
+/* Enhanced navigation */
+.navbar-brand:hover {
+  color: #20c997 !important;
+}
+
+.nav-link:hover {
+  color: #20c997 !important;
+}
+
+/* Hero section enhancements */
+#home {
+  background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+}
+
+/* Responsive typography */
+@media (max-width: 768px) {
+  .display-2 {
+    font-size: 2.5rem;
   }
   
-  .silkscreen-bold {
-    font-family: "Silkscreen", serif;
-    font-weight: 700;
-    font-style: normal;
+  .fs-3 {
+    font-size: 1.5rem !important;
   }
+  
+  .fs-5 {
+    font-size: 1.1rem !important;
+  }
+}
+
+/* Contact cards hover effect */
+.bg-black:hover {
+  background-color: #1a1a1a !important;
+  transition: background-color 0.3s ease;
+}
+
+/* Scroll indicator for better UX */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Loading animation for images (placeholder) */
+.placeholder-icon {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.6; }
+  50% { opacity: 1; }
+  100% { opacity: 0.6; }
+}
+
+/* Project images styling */
+.project-card img,
+section img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 2px solid #495057;
+}
+
+.project-card img:hover,
+section img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Ensure images fit well */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
